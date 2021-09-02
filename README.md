@@ -29,9 +29,11 @@ Petit code pour faire le diagnostique du système.
 ### Step by step
 * Connecter l'arduino connecters les arduinos de la façon suivante : 
     Arduino 1 | Arduino 2
+    
     --------|--------
     Rx1 | Tx1
     Tx1 | Rx1
+    
 * Uploader _sketch_serial.ino_ dans le second arduino mega
 * Ouvrir le moniteur série en utilisant la loupe (baud rate 9600)
 
